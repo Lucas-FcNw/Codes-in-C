@@ -1,7 +1,6 @@
-/* Aluno: Lucas Fernandes de Camargo
-   TIA: 10419400
+/* Aluno: Lucas Fernandes
    Curso: Ciência da Computação
-   Semetres e Turma: 2° 02D11
+   Semetres e Turma: 2° 
    Disciplina: Algoritmos e Progamação II    
    Código desenvolvido no ambiente de progamação Replit.
    Caso haja problemas com acentuação adicionar o seguinte código ao progama.
