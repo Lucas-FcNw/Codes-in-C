@@ -1,3 +1,6 @@
+/* Autor: Lucas Fernandes
+   E-mail: lucasfc.nw@outlook.com
+    */
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
