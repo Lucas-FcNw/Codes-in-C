@@ -1,7 +1,5 @@
-/* Aluno: Lucas Fernandes
-   Curso: Ciência da Computação
-   Semetres e Turma: 2° 
-   Disciplina: Algoritmos e Progamação II    
+/* Autor: Lucas Fernandes
+   e-mail: lucasfc.nw@outlook.com
    Código desenvolvido no ambiente de progamação Replit.
    Caso haja problemas com acentuação adicionar o seguinte código ao progama.
    #include <locale.h> na linha 11
