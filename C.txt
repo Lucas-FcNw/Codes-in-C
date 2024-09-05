@@ -1,0 +1,35 @@
+C possui 32 palavras r5eservadas(comandos)
+
+Eles são: 
+- auto        // Declara variáveis automáticas (classe de armazenamento padrão)
+- break       // Sai de um loop ou de uma instrução switch
+- case        // Define um ramo em uma instrução switch
+- char        // Declara uma variável de caractere
+- const       // Declara uma variável como constante (somente leitura)
+- continue    // Pula o restante da iteração do loop e prossegue para a próxima iteração
+- default     // Especifica o ramo padrão em uma instrução switch
+- do          // Inicia um loop do-while
+- double      // Declara uma variável de ponto flutuante de dupla precisão
+- else        // Especifica o ramo alternativo em uma instrução if-else
+- enum        // Declara um tipo de enumeração
+- extern      // Declara uma variável ou função definida em outro arquivo
+- float       // Declara uma variável de ponto flutuante de precisão simples
+- for         // Inicia um loop for
+- goto        // Salta para uma instrução rotulada
+- if          // Inicia uma instrução condicional
+- int         // Declara uma variável inteira
+- long        // Declara uma variável inteira longa
+- register    // Sugere que a variável seja armazenada em um registrador da CPU
+- return      // Sai de uma função e opcionalmente retorna um valor
+- short       // Declara uma variável inteira curta
+- signed      // Declara uma variável com sinal (padrão para int)
+- sizeof      // Retorna o tamanho de uma variável ou tipo
+- static      // Declara uma variável ou função estática
+- struct      // Declara um tipo de estrutura
+- switch      // Inicia uma instrução switch
+- typedef     // Cria um novo nome de tipo
+- union       // Declara um tipo de união
+- unsigned    // Declara uma variável sem sinal
+- void        // Especifica que uma função não retorna um valor
+- volatile    // Indica que uma variável pode ser alterada por fatores externos
+- while       // Inicia um loop while
