@@ -11,7 +11,7 @@ int main() {
     vetor[3] = 40;
     vetor[4] = 50;
     
-// Também pode ser feito assim
+// Também pode ser feito assim    https://www.reddit.com/r/brasil/comments/1680xft/comprei_todas_as_batatas_fritas_do_supermercado/?rdt=55301
 
 // int vetor[5] = {10, 20, 30, 40, 50};
     // Imprimindo os valores do vetor
