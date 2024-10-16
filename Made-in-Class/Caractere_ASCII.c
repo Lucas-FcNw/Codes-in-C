@@ -10,7 +10,7 @@ void toUpperCase(char str[]) {
 
 int main() {
     char frase[256];
-    int maius = 0, minus = 0, dig = 0, espec = 0;
+    int mais = 0, minus = 0, dig = 0, espec = 0;
 
     // Solicita ao usuário para inserir uma frase
     printf("Insira uma frase: ");
@@ -41,7 +41,7 @@ int main() {
 
     // Exibe contagens
     printf("\nTotal de caracteres:\n");
-    printf("Maiúsculas: %d\n", maius);
+    printf("Maiúsculas: %d\n", mais);
     printf("Minúsculas: %d\n", minus);
     printf("Dígitos: %d\n", dig);
     printf("Especiais: %d\n", espec);
