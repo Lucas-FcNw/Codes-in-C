@@ -1,33 +1,32 @@
 #include <stdio.h>
 #include <string.h>
-#include <ctype.h>
 
-// Função que remove espaço das strings
-void removeSpaces(char* str) {
-    int count = 0;
-    for (int i = 0; str[i]; i++) {
-        if (str[i] != ' ') {
-            str[count++] = str[i];
+// Remove espaços da string
+void removeEspacos(char* s) {
+    int j = 0;
+    for (int i = 0; s[i]; i++) {
+        if (s[i] != ' ') {
+            s[j++] = s[i];
         }
     }
-    str[count] = '\0';
+    s[j] = '\0';
 }
 
-// Função de reverter string
-void reverseString(char* str) {
-    int n = strlen(str);
+// Inverte a string
+void inverter(char* s) {
+    int n = strlen(s);
     for (int i = 0; i < n / 2; i++) {
-        char temp = str[i];
-        str[i] = str[n - i - 1];
-        str[n - i - 1] = temp;
+        char tmp = s[i];
+        s[i] = s[n - i - 1];
+        s[n - i - 1] = tmp;
     }
 }
 
-// Função que checa Palíndromo
-int isPalindrome(char* str) {
-    int n = strlen(str);
+// Checa se a string é palíndromo
+int ehPalindromo(char* s) {
+    int n = strlen(s);
     for (int i = 0; i < n / 2; i++) {
-        if (str[i] != str[n - i - 1]) {
+        if (s[i] != s[n - i - 1]) {
             return 0;
         }
     }
@@ -39,22 +38,21 @@ int main() {
 
     printf("Digite uma frase: ");
     fgets(str, sizeof(str), stdin);
-
-    
     str[strcspn(str, "\n")] = '\0';
 
-    removeSpaces(str);
-    printf("Frase sem espaços: %s\n", str);
+    removeEspacos(str);
+    printf("Sem espaços: %s\n", str);
 
-    char reversedStr[100];
-    strcpy(reversedStr, str);
-    reverseString(reversedStr);
-    printf("Frase invertida: %s\n", reversedStr);
+    char invertida[100];
+    strcpy(invertida, str);
+    inverter(invertida);
+    printf("Invertida: %s\n", invertida);
 
-    if (isPalindrome(str)) {
-        printf("A frase é um palíndromo.\n");
+    if (ehPalindromo(str)) {
+        printf("É palíndromo.\n");
     } else {
-        printf("A frase não é um palíndromo.\n");
+        printf("Não é palíndromo.\n");
     }
 
     return 0;
+}
