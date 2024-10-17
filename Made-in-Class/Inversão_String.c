@@ -57,4 +57,4 @@ int main() {
         printf("A frase não é um palíndromo.\n");
     }
 
-    retu
+    return 0;
